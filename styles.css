@@ -1,0 +1,53 @@
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2%;
+    font-size: 200%;
+    border-radius: 10px;
+}
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1.5%;
+    font-size: 170%;
+    border-radius: 10px;
+}
+body{
+    align-self: center;
+    background-image: url(botw.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}  
+p{
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.407);
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 170%;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 20px;
+    margin-left: 15%;
+}
+
+.gif2{
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: -19%;
+}
+
+/* dette er stylessheeten min, alt det som er her er en del av <body> fra html siden, bortsett fra bakgrunnen som bare er her. 
+styles sheeten er bare for å passe på at ting ser estetsik bra ut, så <h1> og <h2> er tittelene og <p> er paragrafet hvor jeg
+ har skrevet om spillet, også er det <img> og div classen <gif2> som er gameplay gifene mine, grunnen til at det er så mye variasjon 
+ mellom px og % er fordi jeg startet med px og fikk etterverdt beskjed om å bytte til %, pluss at <border-raidius> ser bedre ut med 
+ px en det det gjør med %. */
